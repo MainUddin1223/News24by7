@@ -2,8 +2,7 @@ const express = require("express")
 const PORT = 3006  ;
 const app =  express()
 
-const hello = "test"
-
+const hello = "test husky"
 
 app.get('/test',(req,res)=>{
     res.json({status:true , message:"server respond successfully"})
