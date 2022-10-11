@@ -2,7 +2,7 @@ const express = require("express")
 const PORT = 3006  ;
 const app =  express()
 
-const hello = "test"
+const hello = "t est"
 
 
 app.get('/test',(req,res)=>{
