@@ -6,14 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.js",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "node rsc/index.js",
+    "start-dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "joi": "^17.6.2"
+    "express-async-router": "^0.1.15",
+    "joi": "^17.6.2",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "husky": "^8.0.0",
